@@ -67,6 +67,14 @@ function registrationButton(e) {
   const burger = document.querySelector('.burger');
   const navLinks = document.querySelector('.navbar ul');
 
+
+const menuBtn = document.getElementById("menu-btn");
+const navbar = document.querySelector(".navbar ul");
+
+menuBtn.onclick = () => {
+    navbar.classList.toggle("active");
+};
+
   burger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
   });
