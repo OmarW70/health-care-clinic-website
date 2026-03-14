@@ -731,9 +731,16 @@ footer {
 .header2 span {
     color: #0de2ea ;
 }
+#menu-btn{
+font-size:28px;
+color:white;
+cursor:pointer;
+display:none;
+margin-left:auto;
+margin-right:20px;
+margin-top:20px;
+}
 
-
-/* ================= MOBILE ================= */
 
 @media (max-width: 768px){
 
@@ -767,12 +774,10 @@ display:flex;
 display:block;
 }
 
-/* search bar */
 .search-bar{
 margin:10px auto;
 }
 
-/* homepage text */
 
 .homepage .home .paraghraph{
 margin:0;
@@ -789,7 +794,6 @@ top:200px;
 font-size:16px;
 }
 
-/* about section */
 
 .about{
 width:95%;
@@ -803,7 +807,6 @@ flex-direction:column;
 width:100%;
 }
 
-/* services */
 
 .animated-photos{
 flex-direction:column;
@@ -813,7 +816,6 @@ flex-direction:column;
 margin:20px auto;
 }
 
-/* doctors */
 
 .cards{
 flex-direction:column;
@@ -824,7 +826,6 @@ align-items:center;
 width:90%;
 }
 
-/* contact */
 
 .contact .row{
 flex-direction:column;
@@ -844,7 +845,6 @@ margin:0 auto;
 display:block;
 }
 
-/* address */
 
 .address_content h3{
 width:100%;
@@ -854,7 +854,6 @@ font-size:25px;
 
 }
 
-/* ================= TABLET ================= */
 
 @media (max-width:1024px){
 
